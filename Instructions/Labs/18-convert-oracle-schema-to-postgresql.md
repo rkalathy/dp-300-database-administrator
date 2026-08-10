@@ -18,6 +18,7 @@ In this exercise, you run an end-to-end schema conversion from Oracle to Azure D
 
 You run this exercise against your own environment rather than a prebuilt sandbox, because the tool reads schema metadata directly from a live Oracle data dictionary and validates the converted objects against a real Azure Database for PostgreSQL flexible server.
 
+
 > [!NOTE]
 > This exercise runs against a live environment. Before you start, confirm that you have:
 >
@@ -37,6 +38,8 @@ If you don't already have the Oracle source, PostgreSQL flexible server, and Mic
 
 [!div class="nextstepaction"]
 [Deploy the environment](https://github.com/Balunywa/azure-oracle-pg-migrator)
+
+You can also deploy from the [oracle-to-postgres-poc](https://github.com/Balunywa/azure-oracle-pg-migrator) repository.
 
 > [!NOTE]
 > This template is a community-maintained, third-party resource — not an official Microsoft asset — offered as an interim option pending official publication. Review it before deploying. It creates billable Azure resources, so use its teardown option to remove them when you finish.
